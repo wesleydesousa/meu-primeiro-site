@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+.bg-grid-cyber {
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, rgba(139, 92, 246, 0.025) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(139, 92, 246, 0.025) 1px, transparent 1px);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
+}
+
+.neon-glow-violet {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
+}
+
+.neon-glow-lime {
+  box-shadow: 0 0 25px rgba(163, 230, 53, 0.35);
+}
+
+.text-glow-lime {
+  text-shadow: 0 0 8px rgba(163, 230, 53, 0.6);
+}
+
+.timeline-horizontal-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.timeline-horizontal-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 99px;
+}
+
+.timeline-horizontal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 99px;
+}
+
+.timeline-horizontal-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.6);
+}
